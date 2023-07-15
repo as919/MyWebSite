@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asma site</title>
+    <link rel="stylesheet" href="./Asma site_files/style.css">
+    <link rel="icon" href="http://127.0.0.1:5500/favicon.ico">
+    
+</head>
+<body>
+    <div class="top_contenar">
+         <div class="top_top_contenar">       
+            <img class="top_clude" src="./Asma site_files/cloud.png" alt=" cloude imge">
+            <h1>Iam Asma </h1>
+            <h2> I am a programmer </h2>
+        </div>
+        <img class="bottom_clude" src="./Asma site_files/cloud.png" alt=" cloude imge">
+        <img src="./Asma site_files/mountain.png" alt=" mountain imge">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="raunded_img" src="./Asma site_files/personalImg.jpeg" alt="flower imge">
+          <h2>Hello</h2>
+          <p class="intro">I am Asma a software engineer. Passionate about learning and discovering everything new. I aspire to be the best version of myself</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="raunded_img1" src="./Asma site_files/skils.jpeg" alt="skills image">
+            <h3>Practical Skills</h3>
+            <p class="description1">Systems analysis and design, Java language, C#, HTML, CSS, JavaScript, Python, intermediate level in R language ,MySQL, UI/UX design.</p>
+          </div>
+          <div class="skill-row">
+            <img class="raunded_img2" src="./Asma site_files/skils.jpeg" alt="skills image">
+            <h3>Soft Skills</h3>
+            <p class="description2">Critical thinking and problem solving skills, organization and planning skills, desire for continuous learning and search for information.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>You can contact me through :</h3>
+          <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:asmaz0241@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="end-text">© 2022 Asma @ app  </p>
+      </div>
+   
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
